@@ -1,0 +1,22 @@
+name: mdl_sample
+description: Material Design Lite Sample
+version: 0.1.0
+
+author: mogetta
+homepage: muzigram.muzigen.net
+
+dependencies:
+  browser: any
+
+  logging: any
+  logging_handlers: any
+  console_log_handler: any
+
+  mdl: "^1.0.0"
+  di: "^3.3.0"
+
+  dart_to_js_script_rewriter: '^1.0.1'
+
+transformers:
+  - di
+  - dart_to_js_script_rewriter
